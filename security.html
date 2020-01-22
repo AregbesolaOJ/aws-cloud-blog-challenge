@@ -1,0 +1,115 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>Blog Project</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat|Open+Sans">
+    <link rel="stylesheet" href="./css/normalize.min.css">
+    <link rel="stylesheet" href="./css/app.css">
+</head>
+<body>
+
+    <header class="page-header">
+        <h1>the john key blog</h1>
+    </header>
+
+    <div class="container">
+        <main>
+            <header>
+                <h3>cloud security</h3>
+                <p>Published on: <time datetime="2020-01-14T08:00">January 14, 2020</time></p>
+            </header>
+
+            <section classname="security">
+                <p>
+                    As adoption of cloud services has increased, so has the need for increased security in the cloud. The great thing about cloud
+                    security is that it not only protects data(especially PII - personally identifiable information e.g SSN, bank account information, passport numbers etc),
+                    it also protects applications that access the data. Cloud security even protects the infrastructure (like servers) that applications run on.
+                    The way security is delivered depends on the cloud provider you're using and the cloud security options they offer.
+                    But before we talk about Cloud service providers, one might wonder what exactly is cloud computing?
+                </p>
+
+                <h4>
+                    What is Cloud Computing?
+                </h4>
+                <p>
+                    Simply put, cloud computing is the delivery of IT resources over the Internet. The cloud is like a virtual data center accessible via the Internet that allows you to manage storage services likes databases,
+                    servers, networking analytics, artificial intelligence, security services e.t.c for data and applications
+                    So it can be said that cloud computing offers platform independence, as the software is not required to be installed locally on the PC. Hence, Cloud Computing is making our business applications mobile and collaborative.
+                </p>
+                <h4>
+                    What is a Cloud Service Provider?
+                </h4>
+                <p>
+                    "Cloud service providers (CSP) are companies that offer network services, infrastructure, or business applications in the cloud.
+                    The cloud services are hosted in a data center that can be accessed by companies or individuals using network connectivity." - <a href="https://www.sdxcentral.com/cloud/definitions/what-are-cloud-service-providers/">SDxCentral (2015)</a> &nbsp;
+                    A few examples of common cloud service providers include: Amazon Web Services (AWS), Google Cloud Platform (GCP), Microsoft Azure e.t.c
+                </p>
+                <p>
+                    Everyone desires total control and confidence to securely run their business with the most flexible and secure cloud
+                    computing environment available in today's world. A service that enures protection of customer information, applications, and devices. Say hello to...... Amazon Web Services!!! 👏🏼
+
+                    AWS allows you to automate manual security tasks so you can shift your focus to scaling and innovating your business. Plus, you pay only for the
+                    services that you use. All customers benefit from AWS being the only commercial cloud that has had its service offerings and associated supply chain
+                    vetted and accepted as secure enough for top-secret workloads.
+                </p>
+                <br />
+                <span>The following are security options offered by Amazon:</span>
+                <ul>
+                    <li>AWS Shield: This is a managed DDoS (or Distributed Denial of Service) protection service that safeguards web applications running on AWS. There’s AWS Shield Standard which is always-on, using techniques to detect malicious traffic and AWS Shield Advanced which provides enhanced detection. AWS Shield can be found under the Security, Identity, & Compliance section on the AWS Management Console.</li>
+                    <li>AWS WAF (Web Application Firewall): This protection service provides a firewall that protects your web applications by reviewing the data being sent to your application and stopping well-known attack e.g SQL injection, cross-site scripting etc. WAF can protect web sites not hosted in AWS through Cloud Front. You can configure CloudFront to present a custom error page when requests are blocked. (A firewall is a security mechanism that monitors and controls incoming and outgoing network traffic based on preset rules, serves as a way to guard who can access our websites/applications).</li>
+                    <li>Identity and Access Management(IAM): Identity & Access Management (IAM) is an AWS service that allows us to configure who can access our AWS account, services, or even applications running in our account. IAM is a global service and is automatically available across ALL regions. Security concepts under this option include:
+                        <ol>
+                            <li>
+                                IAM User: this is an entity that you create on AWS to represent the person/service that interacts with services/applications running in your AWS account. A user in AWS consists of username and access credentials (a console password on access key which includes an access key ID and secret access key)
+                            </li>
+                            <li>
+                                IAM Group: this is a collection of IAM Users which makes managing a group of users easier based on permissions.
+                            </li>
+                            <li>
+                                IAM Role: this is an identity with permissions or  a set of privileges not associated with a specific IAM User/IAM Group
+                            </li>
+                            <li>
+                                IAM Policy: a Policy is a way to define granular level permissions and can be attached to users, groups and roles. AWS provides a pre-defined list of policies while you can also create your own custom policies using JSON
+                            </li>
+                        </ol>
+                    </li>
+                </ul>
+
+                <p>It is interesting to know that AWS can help you control where your data is stored, who can access it and what resources your organization is consuming at any moment. This
+                    is one of many benefits that comes with using a security option offered by Amazon, absolutely amazing. For more information, visit the <a href="https://aws.amazon.com/security/">AWS Security page</a>
+                </p>
+
+                <a class="read-more" href="./index.html">Go back</a>
+            </section>
+
+        </main>
+
+        <aside>
+            <img src="img/profilepic.jpeg" alt="My profile picture">
+
+            <div class="sidebar-text">
+                <h2>About Me</h2>
+                <p>Frontend developer and also an aspiring full stack developer with great passion for creating good, scalable and usable software. I have been exposed to industry standard approach to research, and developing software.
+                    I have about 2 years experience working in digital and tech industries. Proud Foodie 😁✌🏼&nbsp; <a class="read-more" href="https://www.github.com/aregbesolaoj">Find me on Github</a></p>
+
+                <section>
+                    <h3 class="visuallyhidden">Social Links</h3>
+                    <a class="social-link" href="https://twitter.com/udacity">
+                        <img src="img/social-twitter.png" alt="Twitter">
+                    </a>
+                    <a class="social-link" href="https://www.instagram.com/udacity/">
+                        <img src="img/social-instagram.png" alt="Instagram">
+                    </a>
+                </section>
+            </div>
+        </aside>
+    </div>
+
+    <footer>
+        Made with ♥ @theJohnKey
+    </footer>
+</body>
+</html>
