@@ -1,8 +1,8 @@
-# Version Control with Git
+# The Blog Challenge
 
-This is the repo for [Udacity's Version Control with Git course](). In the course, students will learn version control while learning the basics to intermediate knowledge of Git.
+This is the repo for Udacity's Bertelsmann Technology Scholarship [The Blog Challenge](https://sites.google.com/udacity.com/bertelsmann-challenge/home?authuser=0). 
 
-This repo contains the source code of a blog project that will be used throughout the course.
+This repo contains the source code of a blog post on the lesson of my choice for this challenge - Security in the Cloud.
 
 ## Table of Contents
 
